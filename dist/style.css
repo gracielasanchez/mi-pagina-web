@@ -1,0 +1,149 @@
+.dumbo-logo{
+  }
+body{
+  margin: 0;
+  min-height:100vh;
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/a/a7/Dumbo-1941-poster.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  }
+body:before{
+  content:"";
+  width:100%;
+  min-height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+ 
+background: linear-gradient(to bottom, #634100 0%, #FFA900 40%, #7C0003 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+ 
+  opacity:0.6;
+  z-index:-1;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#menu{
+  margin:auto;
+  width:500px;
+  font-family: 'Anton', sans-serif;
+  margin-right:38%;
+  }
+ul{
+  list-style:none;
+}
+.secciones li a{
+  background-color:#00008B;
+  color:#00FFFF;
+  font-family:fantasy;
+  text-decoration:none;
+  padding:4px 5px;
+  display:block;
+}
+.secciones li a:hover{
+  background-color:#00008B;
+}
+.secciones > li{
+  float:left;
+}
+.secciones li ul {
+  display:none;
+  position: absolute;
+  min-width: 100px;
+ }
+.secciones li:hover > ul {
+  display:block;
+}
+
+.reseña-contenido{
+  padding:40px;
+  margin-top: -30px;
+  font-family: candara ;
+  color:white;
+  font-size:18px;
+ 
+}
+.dumbo{
+  margin:50px;
+  border: #00008B 8px inset;
+  margin-right:4000px;
+}
+.tres{
+  border: #00008B 5px solid;
+}
+.img1{
+  margin-right:80px;
+  margin-bottom:80px;
+  margin-inline:20px;
+  color:blue;
+}
+.img2{
+  margin-right:80px;
+  margin-bottom:80px;
+  margin-inline:20px;
+  margin-left:50px;
+  color:blue;}
+.img3{
+  margin-right:80px;
+  margin-bottom:80px;
+  margin-inline:40px;
+  margin-left:20px;
+  color:blue;}
+  p{
+    padding:40px;
+  margin-top: -30px;
+  font-family: arial ;
+  color:white;
+  font-size:18px;
+  }
+h2{
+  color:blue;
+  font: bold 90% fantasy;
+  padding:40px;
+  margin-top: -30px;
+  font-size:40px;
+}
+.can{
+  padding:3px;
+  margin-top:30px;
+  margin-left:80px;
+  font-family: arial ;
+  color:white;
+  font-size:18px;
+}
+table {    
+font-family: "cursive";
+font-size: 15px;    
+margin: 45px;    
+width: 480px;
+text-align: left;    
+border-collapse: collapse; }
+
+th {    
+font-size: 18px;    
+font-weight: normal;    
+padding: 8px;    
+background: #00008B;
+border-top: 4px solid #00FFFF;  
+border-bottom: 1px solid #00FFFF; color:#00FFFF; }
+
+td {    padding: 8px;     background: #00008B;     border-bottom: 1px solid #00FFFF;
+    color: #00FFFF;    border-top: 1px solid #00FFFF;}
+
+tr:hover td { background: #00008B; color:whide; }
+.ultimo{
+  color:#00FFFF;
+   font-size:18px;
+   font-family:Courier;
+   border:8px;
+   border-color:#00008B;
+  background-color:#00008B;
+   border-style:solid;
+   width:550px;
+   height:300px;
+   overflow:scroll;
+  }
